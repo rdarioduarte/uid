@@ -11,7 +11,7 @@
 if (!len) {
   out = 'Usage: $ uid <len>';
 } else {
-  out = uid(len);
+  out = 'genuid: '+uid(len);
 }
 
 console.log(out);
